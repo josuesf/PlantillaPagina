@@ -3,11 +3,15 @@ var app = express();
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
+
 app.use(express.static('public'));
+
 app.get('/', function (req, res) {
-    res.render('index.ejs');
+    res.render('indexparalax.ejs');
 });
+
+
 var port = process.env.PORT || 8080;
 app.listen(port, function () {
-    console.log('Example app listening on port 3000!');
+    console.log('Example app listening on port 8080!');
 });
