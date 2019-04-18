@@ -10,6 +10,10 @@ app.get('/', function (req, res) {
     res.render('indexparalax.ejs');
 });
 
+app.get('/menu', function (req, res) {
+    res.render('menu.ejs');
+});
+
 
 var port = process.env.PORT || 8080;
 app.listen(port, function () {
