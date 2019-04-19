@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <% include ./layout/head %>
+  </head>
+
+  <body>
+    <header>
+      <% include ./layout/header %>
+    </header>
+
+    <main>
+      <div id="home" class="slider">
+        <ul class="slides">
+          <li>
+            <img
+              src="../images/foodhd3.jpg"
+              style="opacity: 0.5;
+                                            filter: alpha(opacity=50);"
+            />
+            <!-- random image -->
+            <div class="caption center-align">
+              <h3>Soups and Creams</h3>
+              <h5 class="light grey-text text-lighten-3"></h5>
+            </div>
+          </li>
+          <li>
+            <img
+              src="../images/foodhd1.jpg"
+              style="opacity: 0.5;
+                                filter: alpha(opacity=50);"
+            />
+            <!-- random image -->
+            <div class="caption right-align">
+              <h3></h3>
+              <h5 class="light text-lighten-3"></h5>
+            </div>
+          </li>
+          <li>
+            <img
+              src="../images/foodhd2.jpg"
+              style="opacity: 0.5;
+                                filter: alpha(opacity=50);"
+            />
+            <!-- random image -->
+            <div class="caption left-align">
+              <h3></h3>
+              <h5 class="light grey-text text-lighten-3"></h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div id="productos" class="container">
+        <div class="section">
+                <h4 class="teal-text center-align text-accent-4">Soups and Creams</h4>
+                <div class="row">
+                    <% for(var i=0; i < data.comidas.sopasyCremas.length; i++) { %>
+                        <div class="col s12 m4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img class="materialboxed" width="650" src="../<%= data.comidas.sopasyCremas[i].imagen %>" style="height:180px" alt="la retama del che <%= data.comidas.sopasyCremas[i].nombre.ES %>" />
+                                    <span class="card-title"></span>
+                                </div>
+                                <div class="card-content">
+                                    <p class="light">
+                                        <%= data.comidas.sopasyCremas[i].nombre.ES %>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <% } %>
+                </div>
+                <div class="row">
+                        <div class="col s12">
+                            <div>
+                                <h5 class="right-align"><a class="waves-effect waves-light btn"
+                                        href="/#productos">Volver</a></h5>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <% include ./layout/footer %>
+    </footer>
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/materialize.js"></script>
+    <script>
+      $(document).ready(function() {
+        $(".slider").slider();
+
+        $(".button-collapse").sideNav();
+      });
+      $(document).ready(function() {
+        $(".parallax").parallax();
+      });
+    </script>
+  </body>
+</html>
