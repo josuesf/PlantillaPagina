@@ -1,0 +1,199 @@
+{
+    "comidas": {
+        "entradas": [
+            {
+                "nombre": {
+                    "ES": "Palta a la vinagreta",
+                    "EN": "Vocado vinaigrette"
+                },
+                "imagen": "/images/entradas/palta-a-la-vinagreta.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Tomate relleno con atun",
+                    "EN": "Tomatoes stuffed with tuna"                    
+                },
+                "imagen": "images/entradas/tomate-relleno-con-atun.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Ensalada de tomate",
+                    "EN": "Tomato salad"
+                },
+                "imagen": "images/entradas/ensalada-de-tomate.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Salpicon de pollo",
+                    "EN": "Chicken spatter"
+                },
+                "imagen": "images/entradas/salpicon-de-pollo.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Palta rellena",
+                    "EN": "Stuffed avocado"
+                },
+                "imagen": "images/entradas/palta-rellena.jpg"
+            }
+        ],
+        "sopasyCremas": [
+            {
+                "nombre": {
+                    "ES": "Sopa a la minuta",
+                    "EN": "Soup ala minuta"
+                },
+                "imagen": "images/sopas-cremas/sopa-a-la-minuta.jpg" 
+            },
+            {
+                "nombre": {
+                    "ES": "Sopa de quinua",
+                    "EN": "Quinoa soup"
+                },
+                "imagen": "images/sopas-cremas/sopa-de-quinua.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Sopa criolla",
+                    "EN": "Creole soup"
+                },
+                "imagen": "images/sopas-cremas/sopa-criolla.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Sopa de verduras",
+                    "EN": "Vegetable soup"
+                },
+                "imagen": "images/sopas-cremas/sopa-de-verduras.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Sopa de ajos",
+                    "EN": "Garlic soup"
+                },
+                "imagen": "images/sopas-cremas/sopa-de-ajos.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Sopa de cebolla",
+                    "EN": "Onion soup"
+                },
+                "imagen": "images/sopas-cremas/sopa-de-cebolla.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Crema de tomate",
+                    "EN": "Tomato cream"
+                },
+                "imagen": "images/sopas-cremas/crema-de-tomate.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Crema de esparrago",
+                    "EN": "Asparagus cream"
+                },
+                "imagen": "images/sopas-cremas/crema-de-esparrago.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Crema de pollo",
+                    "EN": "Chicken cream"
+                },
+                "imagen": "images/sopas-cremas/crema-de-pollo.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Crema de hongos",
+                    "EN": "Mushroom cream"
+                },
+                "imagen": "images/sopas-cremas/crema-de-hongos.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Crema de choclo",
+                    "EN": "Corn cream"
+                },
+                "imagen": "images/sopas-cremas/crema-de-choclo.jpg"
+            }
+        ],
+        "segundos": [
+            {
+                "nombre": {
+                    "ES": "Alpaca a la parrilla",
+                    "EN": "Grilled alpaca"
+                },
+                "imagen": "images/segundos/alpaca-a-la-parrilla.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Trucha al ajo",
+                    "EN": "Trout with garlic"
+                },
+                "imagen": "images/segundos/trucha-al-ajo.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Trucha a la plancha",
+                    "EN": "Grilled trout"
+                },
+                "imagen": "images/segundos/trucha-a-la-plancha.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Trucha al vapor",
+                    "EN": "Steamed trout"
+                },
+                "imagen": "images/segundos/trucha-al-vapor.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Pollo dorado",
+                    "EN": "Golden chicken"
+                },
+                "imagen": "images/segundos/pollo-dorado.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Bistec con papas",
+                    "EN": "Steak with potatoes"
+                },
+                "imagen": "images/segundos/bistec-con-papas.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Lomo saltado",
+                    "EN": "Lomo saltado"
+                },
+                "imagen": "images/segundos/lomo-saltado.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Espagueti bolognesa",
+                    "EN": "Spaghetti bolognese"
+                },
+                "imagen": "images/segundos/espagueti-bolognesa.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Espagueti napolitana",
+                    "EN": "Spaghetti napolitana"
+                },
+                "imagen": "images/segundos/espagueti-napolitana.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Saltado de pollo",
+                    "EN": "Chicken saltado"
+                },
+                "imagen": "images/segundos/saltado-de-pollo.jpg"
+            },
+            {
+                "nombre": {
+                    "ES": "Milanesa de pollo",
+                    "EN": "Chicken milanese"
+                },
+                "imagen": "images/segundos/milanesa-de-pollo.jpg"
+            }
+        ]
+    }
+}
