@@ -11,6 +11,11 @@ app.get('/', function (req, res) {
     res.render('index.ejs', {"data": data});
 });
 
+app.get('/nosotros', function (req, res) {
+    res.render('nosotros.ejs');
+});
+
+
 app.get('/menu/entradas', function (req, res) {
     res.render('entradas.ejs', {"data": data});
 });
