@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en"
 
 <head>
     <% include ./layout/head %>
@@ -102,7 +102,7 @@ Every tourist who visits Machu Picchu will take as souvenir the memory of an unf
                         <div class="col s12">
                             <div>
                                 <h5 class="right-align"><a class="waves-effect waves-light btn"
-                                        href="/menu/entradas">See more</a></h5>
+                                        href="/food-entries-machupicchu-cusco">See more</a></h5>
                             </div>
                         </div>
                     </div>
@@ -128,7 +128,7 @@ Every tourist who visits Machu Picchu will take as souvenir the memory of an unf
                         <div class="col s12">
                             <div>
                                 <h5 class="right-align"><a class="waves-effect waves-light btn"
-                                        href="/menu/sopas-cremas">See more</a></h5>
+                                        href="/food-soups-creams-machupicchu-cusco">See more</a></h5>
                             </div>
                         </div>
                     </div>
@@ -155,7 +155,7 @@ Every tourist who visits Machu Picchu will take as souvenir the memory of an unf
                         <div class="col s12">
                             <div>
                                 <h5 class="right-align"><a class="waves-effect waves-light btn"
-                                        href="/menu/segundos">See more</a></h5>
+                                        href="/food-main-courses-machipicchu-cusco">See more</a></h5>
                             </div>
                         </div>
                     </div>
@@ -179,28 +179,30 @@ Every tourist who visits Machu Picchu will take as souvenir the memory of an unf
                 <div class="section">
                     <div class="container">
                         <div class="container">
+                            <form method="POST" action="\contactus">
                             <h4 class="teal-text text-accent-4 center-align">Contact us</h4>
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input value="" id="first_name2" type="text" class="validate" />
+                                    <input value="" id="first_name2" type="text" class="validate" name="name" />
                                     <label class="active" for="first_name2">Name</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input value="" id="first_name2" type="text" class="validate" />
+                                    <input value="" id="first_name2" type="text" class="validate" name="email" />
                                     <label class="active" for="first_name2">Email</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s12">
-                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
                                     <label for="textarea1">Message</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s3">
-                                    <a class="waves-effect waves-light btn">Send</a>
+                                    <a class="waves-effect waves-light btn" type="submit" name="submit">Send</a>
                                 </div>
                             </div>
+                        </form>
                         </div>
                     </div>
                 </div>
